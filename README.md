@@ -2,3 +2,31 @@ android.rest.client
 ===================
 
 android rest client for CRUD operation within ASP.net Web API
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="android.rest.client"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="17"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name="android.rest.client.MainActivity"
+                  android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+                android:name="android.rest.client.UpdateEmployeeActivity"
+                android:label="Edit Employee Record" >
+              <intent-filter>
+                	<action android:name="android.intent.action.MAIN"/>
+                	<category android:name="android.intent.category.LAUNCHER"/>
+           		</intent-filter>        
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
