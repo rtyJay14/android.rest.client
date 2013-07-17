@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+			  android:background="@drawable/sunny" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textColor="@color/Black"
+        android:textSize="17dp" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextName" 
+            android:textColor="@color/Black"
+            android:layout_margin="5dp" 
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Login Date"
+        android:textColor="@color/Black"
+        android:textSize="17dp" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextPrice" 
+            android:textColor="@color/Black"
+            android:lines="4" 
+            android:layout_gravity="center" 
+            android:layout_margin="5dp"
+            android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:text="Logout Date"
+        android:textColor="@color/Black"
+        android:textSize="17dp" />
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextDescription" 
+            android:textColor="@color/Black"
+            android:singleLine="false" 
+            android:layout_margin="5dp"
+            android:layout_marginBottom="15dp" 
+            android:lines="4" 
+            android:gravity="top"/>
+
+    <Button
+        android:id="@+id/buttonCreateEmployee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Black"
+        android:text="Create" />
+
+</LinearLayout>
